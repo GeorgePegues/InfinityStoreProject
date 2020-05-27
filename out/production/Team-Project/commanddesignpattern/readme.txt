@@ -1,1 +1,0 @@
-This is the package/folder for the command design pattern assignment.

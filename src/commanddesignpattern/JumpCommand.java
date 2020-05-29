@@ -1,3 +1,4 @@
+package commanddesignpattern;
 /**
  * this class is responsible to the Jump Command it allows for the robot to jump
  * @author natiyaashmon

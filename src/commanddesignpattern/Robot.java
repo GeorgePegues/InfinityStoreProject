@@ -10,6 +10,7 @@ public class Robot {
 
     public Robot(String name) {
         this.name = name;
+        System.out.println("Welcome, my name is " + name + ", I'm a friendly robot");
     }
 
     /**

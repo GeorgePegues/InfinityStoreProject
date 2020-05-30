@@ -1,4 +1,4 @@
-package decoratordesignpattern;
+package commanddesignpattern;
 
 public class FireCommand {
 	Robot robot;
@@ -10,10 +10,7 @@ public class FireCommand {
 	
 	public void execute()
 	{
-		if(key.equalsIgnoreCase("fire"))
-		{
-		System.out.println("Bad guys! Fire my blow torch at them. ");
-		}
+		robot.fire();
 	}
 
 

@@ -1,4 +1,4 @@
-package decoratordesignpattern;
+package commanddesignpattern;
 
 public class JumpCommand {
 	
@@ -11,10 +11,7 @@ public class JumpCommand {
 	
 	public void execute()
 	{
-		if(key.equalsIgnoreCase("jump"))
-		{
-		System.out.println("Oh no a hazard, I'm jumping over it.");
-		}
+		robot.jump();
 	}
 
 }

@@ -1,11 +1,11 @@
 package commanddesignpattern;
 
-public class FireCommand {
+public class FireCommand implements Command {
 	Robot robot;
 	
 	public FireCommand(Robot robot)
 	{
-		this.robot = Robot;
+		this.robot = robot;
 	}
 	
 	public void execute()

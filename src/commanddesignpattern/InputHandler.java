@@ -14,10 +14,11 @@ public class InputHandler {
      * @param robot The robot that will execute the commands
      */
     public InputHandler(Robot robot) {
-        commands.add("pickup", new PickupCommand(robot));
-        commands.add("jump", new JumpCommand(robot));
-        commands.add("fire", new FireCommand(robot));
-        commands.add("heal", new HealCommand(robot));
+        commands = new HashMap<String, Command>();
+        commands.put("pickup", new PickupCommand(robot));
+        commands.put("jump", new JumpCommand(robot));
+        commands.put("fire", new FireCommand(robot));
+        commands.put("heal", new HealCommand(robot));
     }
 
     /**

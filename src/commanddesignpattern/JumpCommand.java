@@ -1,12 +1,12 @@
 package commanddesignpattern;
 
-public class JumpCommand {
+public class JumpCommand implements Command {
 	
 	Robot robot;
 	
 	public JumpCommand(Robot robot)
 	{
-		this.robot = Robot;
+		this.robot = robot;
 	}
 	
 	public void execute()
